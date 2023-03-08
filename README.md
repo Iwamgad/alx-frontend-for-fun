@@ -1,0 +1,1 @@
+# These directory consists optional tasks on the front end specialization class
