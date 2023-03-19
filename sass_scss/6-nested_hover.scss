@@ -8,10 +8,7 @@ body {
     font-size: $fontSizeBody;
     h1 {
         font-size: $fontSizeHeadingOneBody;
-    }
-
-    .smaller {
-        h1 {
+        &.smaller {
             font-size: $fontSizeHeadingOneSmaller;
         }
     }
