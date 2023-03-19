@@ -5,7 +5,7 @@ $textColorButtonOnHover: #FF0000;
 button {
     color: $textColorButton; 
 
-    :hover {
+    &:hover {
         color: $textColorButtonOnHover; 
     }
 }
