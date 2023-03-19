@@ -1,11 +1,17 @@
 /*  assigns Text color #FF0000 to button tags and When the user hovers over button tags, text color should change to #00FF00*/
-$textColorButton: #FF0000; 
-$textColorButtonOnHover: #00FF00;
+$fontSizeBody: 14px;
+$fontSizeHeadingOneBody: 16px;
+$fontSizeHeadingOneSmaller: 12px;
 
-button {
-    color: $textColorButton; 
+body {
+    font-size: $fontSizeBody;
+    h1 {
+        font-size: $fontSizeHeadingOneBody;
+    }
 
-    &:hover {
-        color: $textColorButtonOnHover; 
+    .smaller {
+        h1 {
+            font-size: $fontSizeHeadingOneSmaller;
+        }
     }
 }
