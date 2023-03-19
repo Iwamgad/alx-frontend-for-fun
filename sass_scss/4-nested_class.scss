@@ -1,0 +1,12 @@
+/*  assigns No margin or padding in body tags and Margin 10px to all of the p tags inside body tags */
+$textColorOne: #3D3D3D; 
+$textColorTwo: #FF0000;
+
+body {
+    color: $textColorOne;
+    .red {
+        color: $textColorTwo; 
+    }
+}
+
+
