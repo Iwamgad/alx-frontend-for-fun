@@ -1,16 +1,14 @@
 /*  assigns Margin left and right at 10px to body tags and Margin left and right at 15px to div tags*/
-$marginBody: 10px;
-$marginDiv: 15px
 
-@mixin putMargins ($marginLeft, $marginRight){
-    margin-left: $marginLeft;
-    margin-right: $marginRight;
+@mixin putMargins ($margin){
+    margin-left: $margin;
+    margin-right: $margin;
 }
 
 body {
-    @include putMargins(10, 10);
+    @include putMargins(10);
 }
 
 div {
-    @include putMargins(15, 15);
+    @include putMargins(15);
 }
