@@ -1,2 +1,15 @@
-/*  assigns Font size 14px to all body tags, aFont size 16px to all h1 tags inside body tags and Font size 12px to h1 tags of class .smaller inside body tags*/
+/*  assigns Text color #FF0000 to button tags and When the user hovers over button tags, 
+text color should change to #00FF00*/
+$fontSizeBody: 14px;
+$fontSizeHeadingOneBody: 16px;
+$fontSizeHeadingOneSmaller: 12px;
 
+body {
+    font-size: $fontSizeBody;
+    h1 {
+        font-size: $fontSizeHeadingOneBody;
+        &.smaller {
+            font-size: $fontSizeHeadingOneSmaller;
+        }
+    }
+}
