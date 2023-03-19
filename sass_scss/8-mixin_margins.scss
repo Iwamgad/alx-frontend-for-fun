@@ -6,9 +6,9 @@
 }
 
 body {
-    @include putMargins(10);
+    @include putMargins(10px);
 }
 
 div {
-    @include putMargins(15);
+    @include putMargins(15px);
 }
